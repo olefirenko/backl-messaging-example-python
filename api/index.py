@@ -27,13 +27,13 @@ def message():
         extra_section = ''
     body = """Hi {name},
 
-My name is {my_first_name} and I'm the founder of {my_domain}: {my_claim}.
+My name is Dmytro and I'm the founder of {my_domain}: Create amazing content 10x faster with AI tools.
 
 I found your site "{prospect_title}" and noticed that you link to similar tools.
 
 Question: would you mind adding a link to {my_domain}{extra_section}? It would mean the world to me!
 
-Greets
-{my_first_name}
+Thanks a lot,
+Dmytro
 """.format(name=name, extra_section=extra_section, **p)
     return dict(subject=subject, body=body)
